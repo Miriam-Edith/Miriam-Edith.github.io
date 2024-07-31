@@ -1,0 +1,70 @@
+
+*{
+       
+      font-family: "Kalnia Glaze", serif;
+      font-optical-sizing: 200px;
+      font-weight: 100px;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    
+}
+header{
+    background-color: #e0d1ed;
+}
+header span{
+    color: #c9477b;
+}
+/*seccion sobre mi imagen*/
+.d-block{
+    border-color: #d199ff;
+    border-style: double;
+    border-width: 7px;
+}
+.nav-item a{
+    color: #df2180;
+}
+/* Link de visita*/
+.nav-item a:visited{
+    color: #c9477b;
+}
+.nav-item a:hover{
+    color: #1b022f;
+    
+}
+#nav-button{
+    background-color: #d199ff;
+}
+/*iconos seccion Habilidades*/
+.icon-square .bi{
+    background-color: #f8c4de;
+    border-radius: 100px;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f91659;
+    border-color: #ff548f;
+    border-style: solid;
+    border-width: 1px;
+}
+/* contorno de la tarjeta*/
+.card{
+    border-color: #df2180;
+    border-style: solid;
+    border-width: 1px;   
+}
+/*Cntorno de la imagen*/
+.card-img-top{
+    border-color:#f8c4de;
+    border-style: dashed;
+    border-width: 1px;
+    position: relative;
+
+}
+/*Alineación del texto testimonios*/
+.card-text{
+    text-align: justify;
+}
