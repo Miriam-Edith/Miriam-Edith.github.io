@@ -50,21 +50,31 @@ header span{
     border-style: solid;
     border-width: 1px;
 }
-/* contorno de la tarjeta*/
+/* contorno de la card proyecto*/
 .card{
     border-color: #df2180;
     border-style: solid;
     border-width: 1px;   
 }
-/*Cntorno de la imagen*/
+/*Contorno de la imagen*/
 .card-img-top{
     border-color:#f8c4de;
     border-style: dashed;
-    border-width: 1px;
+    border-width: 1.5px;
     position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 /*Alineación del texto testimonios*/
 .card-text{
     text-align: justify;
+}
+
+.sobre .bi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #f91659;
+    font-size: 70px;
 }
