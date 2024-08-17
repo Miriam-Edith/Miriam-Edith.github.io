@@ -56,7 +56,7 @@ header span{
     border-style: solid;
     border-width: 1px;   
 }
-/*Contorno de la imagen*/
+/*Contorno de la imagen-pinterest*/
 .card-img-top{
     border-color:#f8c4de;
     border-style: dashed;
@@ -70,11 +70,24 @@ header span{
 .card-text{
     text-align: justify;
 }
-
+/* Icono Sobre-contacto */
 .sobre .bi{
     display:flex;
     justify-content: center;
     align-items: center;
     color: #f91659;
     font-size: 70px;
+}
+/* Icono Botón-contacto*/
+.btn{
+    background-color:#f8c4de;
+    outline-style: solid;
+    outline-color: #e63c80;
+    outline-width: 1px;
+}
+.btn:hover{
+    background-color: #d9abff;
+    outline-style: solid;
+    outline-color: #4b004c;
+    outline-width: 1px;
 }
